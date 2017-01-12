@@ -1,0 +1,90 @@
+
+img {
+    display: block;
+    border: 2px solid black;
+    margin-left: 30px;
+}
+
+li {
+    margin: 18px;
+}
+
+p{
+    margin-left: 12px;
+}
+
+/* Body / Background */
+
+body {
+    background: radial-gradient(#72b3e5, #1a3f51);
+    color: #000e44;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Typography */
+
+h2, h3 {
+    color: #648880;
+}
+h1, h3, p {
+    margin-bottom: 22px;
+}
+h1 {
+    color: #d1911b;
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 24px;
+    line-height: 44px;
+    text-decoration: underline;
+}
+h3 {
+    font-size: 21px;
+}
+
+br {
+    line-height: 300%;
+}
+
+
+/* Header */
+
+.logo {
+    border-top: 4px solid #648880;
+    float: left;
+    font-size: 48px;
+    font-weight: 100;
+    letter-spacing: .5px;
+    line-height: 44px;
+    padding: 40px 0 22px 0;
+}
+.tagline {
+    margin: 66px 0 22px 0;
+    text-align: right;
+}
+.primary-nav {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+
+/* Primary footer */
+
+.primary-footer {
+    color: #648880;
+    font-size: 14px;
+    padding-bottom: 44px;
+    padding-top: 44px;
+}
+.primary-footer small {
+    float: left;
+    font-weight: 400;
+}
+
+/* Navigation */
+
+.nav {
+    text-align: right;
+}
